@@ -1,4 +1,3 @@
 <?php
-    session_start();
-    print("Welcome " . $_SESSION['name']);
+    print("Welcome " . $_COOKIE['first']);
 ?>
